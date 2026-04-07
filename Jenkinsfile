@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Cloning github repo') {
+        stage('Cloning github repository') {
             steps {
                git branch: 'main', url: 'https://github.com/YASHASHWINIG/docker-01.git'
             }
